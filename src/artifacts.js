@@ -180,7 +180,7 @@ export default class Artifacts {
     options = Object.assign({
       taskId: process.env.TASK_ID,
       runId: process.env.RUN_ID,
-      expires: new Date(Date.now() + ms('30 days')),
+      expires: new Date(Date.now() + ms('400 days')),
       rank: Date.now()
     }, options);
 
