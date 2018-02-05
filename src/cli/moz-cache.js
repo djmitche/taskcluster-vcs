@@ -27,26 +27,14 @@ export default async function main(config, argv) {
         'https://hg.mozilla.org/releases/mozilla-beta',
         'https://hg.mozilla.org/releases/mozilla-release/',
         'https://hg.mozilla.org/releases/mozilla-release',
-        'https://hg.mozilla.org/releases/mozilla-esr45/',
-        'https://hg.mozilla.org/releases/mozilla-esr45',
         'https://hg.mozilla.org/releases/mozilla-esr52/',
         'https://hg.mozilla.org/releases/mozilla-esr52',
-        'https://hg.mozilla.org/integration/autoland/',
-        'https://hg.mozilla.org/integration/autoland',
         'https://hg.mozilla.org/integration/b2g-inbound/',
         'https://hg.mozilla.org/integration/b2g-inbound',
         'https://hg.mozilla.org/integration/mozilla-inbound',
         'https://hg.mozilla.org/integration/mozilla-inbound/',
-        'https://hg.mozilla.org/integration/gaia',
-        'https://hg.mozilla.org/integration/gaia/',
-        'https://hg.mozilla.org/integration/gaia-2_5',
-        'https://hg.mozilla.org/integration/gaia-2_5/',
-        'https://hg.mozilla.org/integration/gaia-2_2r',
-        'https://hg.mozilla.org/integration/gaia-2_2r/',
         'https://hg.mozilla.org/integration/fx-team/',
         'https://hg.mozilla.org/integration/fx-team',
-        'https://hg.mozilla.org/integration/gaia-central',
-        'https://hg.mozilla.org/integration/gaia-central/',
         'https://github.com/mozilla-b2g/gaia',
         'https://github.com/mozilla-b2g/B2G',
         'https://github.com/mozilla-b2g/B2G-manifest',
@@ -87,18 +75,6 @@ export default async function main(config, argv) {
 
 
     var emulators = [
-        ['emulator_url', 'emulator-ics'],
-        ['emulator_url', 'emulator'],
-        ['emulator_url', 'emulator-jb'],
-        ['emulator_url', 'emulator-kk'],
-        ['emulator_url', 'aries'],
-        ['emulator_url', 'flame'],
-        ['emulator_url', 'flame-kk'],
-        ['emulator_url', 'nexus-4'],
-        ['emulator_url', 'nexus-4-kk'],
-        ['emulator_url', 'nexus-5-l'],
-        ['emulator_url', 'emulator-l'],
-        ['emulator_url', 'dolphin']
     ];
 
     var scheduler = new Scheduler({
